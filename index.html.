@@ -104,7 +104,7 @@
         <div class="qr-section">
             <p class="gold-text" style="font-size: 0.8em;">🔗 ACCESS THE MAIN DIGITAL SANCTUARY</p>
             <video class="qr-video" autoplay loop muted playsinline>
-                <source src="logos_vox_golden_qr_v3.png.mp4" type="video/mp4">
+                <source src="logos_vox_golden_qr_v3.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <p style="font-size: 0.7em; color: #888; margin-top: 10px;">SOLI DEO GLORIA</p>
