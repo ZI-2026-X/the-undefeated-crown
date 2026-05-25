@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE UNDEFEATED CROWN | EXCLUSIVE SANCTUARY</title>
+    <style>
+        body {
+            background-color: #050505;
+            color: #FFFFFF;
+            font-family: 'Cinzel', 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            padding: 40px 20px;
+        }
+        .gold-text {
+            color: #D4AF37;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.3em;
+            font-weight: 300;
+            margin-bottom: 40px;
+        }
+        .media-box {
+            border: 2px solid #D4AF37;
+            background: #000000;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.15);
+            margin-bottom: 40px;
+            max-width: 800px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        video {
+            width: 100%;
+            border-radius: 4px;
+            outline: none;
+        }
+        .message-body {
+            font-style: italic;
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #E0E0E0;
+            max-width: 800px;
+            margin: 0 auto 40px auto;
+        }
+        .qr-section img {
+            border: 2px solid #D4AF37;
+            border-radius: 4px;
+            width: 180px;
+            height: 180px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="gold-text">𝕿𝖍𝖊 寻𝖓𝖉𝖊𝖋𝖊𝖆𝖙𝖊𝖉 𝕮𝖗𝖔𝖜𝖓</h1>
+        <h2 class="gold-text">A Tribute to the Champion of Light</h2>
+        
+        <div class="media-box">
+            <video controls poster="champion_banner.png">
+                <source src="the_undefeated_crown.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="message-body">
+            "To the absolute champion who stands unyielding in the grand arenas of the earth, 
+            holding the hand of the Messiah, and boldly proclaiming the praise of the Living God before the universe. 
+            May your stance remain firm as long as you carry the Light of the Lord into the darkness."
+        </div>
+
+        <div class="qr-section">
+            <p class="gold-text" style="font-size: 0.8em;">🔗 ACCESS THE MAIN DIGITAL SANCTUARY</p>
+            <img src="logos_vox_golden_qr_v3.png" alt="Ecosystem Gate">
+            <p style="font-size: 0.7em; color: #888; margin-top: 10px;">SOLI DEO GLORIA</p>
+        </div>
+    </div>
+</body>
+</html>
