@@ -48,11 +48,19 @@
             width: 100%;
             box-sizing: border-box;
         }
-        video {
+        video.main-video {
             width: 100%;
             border-radius: 4px;
             outline: none;
             margin-bottom: 15px;
+        }
+        video.qr-video {
+            border: 2px solid #D4AF37;
+            border-radius: 4px;
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            outline: none;
         }
         audio {
             width: 100%;
@@ -67,12 +75,6 @@
             max-width: 800px;
             margin: 0 auto 40px auto;
         }
-        .qr-section img {
-            border: 2px solid #D4AF37;
-            border-radius: 4px;
-            width: 180px;
-            height: 180px;
-        }
     </style>
 </head>
 <body>
@@ -81,14 +83,14 @@
         <h2 class="gold-text">A Tribute to the Champion of Light</h2>
         
         <div class="media-box">
-            <video autoplay loop muted playsinline poster="champion_banner.png">
+            <video class="main-video" autoplay loop muted playsinline>
                 <source src="the_undefeated_crown.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             
             <p class="gold-text" style="font-size: 0.8em; margin-bottom: 5px;">🔊 PLAY HIGH-POWER 432HZ TRIUMPHAL AUDIO</p>
             <audio controls>
-                <source src="https://drive.google.com/file/d/1OwImk0e1PQwv_QAVxO4mF0oD6UWql834/view?usp=sharing" type="audio/mpeg">
+                <source src="https://drive.google.com/uc?export=download&id=1OwImk0e1PQwv_QAVxO4mF0oD6UWql834" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
         </div>
@@ -101,7 +103,10 @@
 
         <div class="qr-section">
             <p class="gold-text" style="font-size: 0.8em;">🔗 ACCESS THE MAIN DIGITAL SANCTUARY</p>
-            <img src="logos_vox_golden_qr_v3.png" alt="Ecosystem Gate">
+            <video class="qr-video" autoplay loop muted playsinline>
+                <source src="logos_vox_golden_qr_v3.png.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
             <p style="font-size: 0.7em; color: #888; margin-top: 10px;">SOLI DEO GLORIA</p>
         </div>
     </div>
