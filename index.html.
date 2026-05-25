@@ -52,6 +52,12 @@
             width: 100%;
             border-radius: 4px;
             outline: none;
+            margin-bottom: 15px;
+        }
+        audio {
+            width: 100%;
+            max-width: 500px;
+            margin-top: 10px;
         }
         .message-body {
             font-style: italic;
@@ -71,14 +77,20 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="gold-text">𝕿𝖍𝖊 寻𝖓𝖉𝖊𝖋𝖊𝖆𝖙𝖊𝖉 𝕮𝖗𝖔𝖜𝖓</h1>
+        <h1 class="gold-text">𝕿𝖍𝖊 𝖀𝖓𝖉𝖊𝖋𝖊𝖆𝖙𝖊𝖉 𝕮𝖗𝖔𝖜𝖓</h1>
         <h2 class="gold-text">A Tribute to the Champion of Light</h2>
         
         <div class="media-box">
-            <video controls poster="champion_banner.png">
+            <video autoplay loop muted playsinline poster="champion_banner.png">
                 <source src="the_undefeated_crown.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
+            
+            <p class="gold-text" style="font-size: 0.8em; margin-bottom: 5px;">🔊 PLAY HIGH-POWER 432HZ TRIUMPHAL AUDIO</p>
+            <audio controls>
+                <source src="ВСТАВТЕ_СЮДИ_ПОСИЛАННЯ_НА_GOOGLE_DRIVE" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
         </div>
 
         <div class="message-body">
